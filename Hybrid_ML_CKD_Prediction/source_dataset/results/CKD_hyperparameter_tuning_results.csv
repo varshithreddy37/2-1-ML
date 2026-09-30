@@ -1,0 +1,10 @@
+Model,Best_CV_F1,Mean_Train_F1,Train_CV_Gap,Best_Params,Generalization_Diagnostic
+Logistic Regression,0.9951219512195122,1.0,0.004878048780487809,"{'model__solver': 'lbfgs', 'model__C': 10.0}",No strong warning from train-CV gap
+Random Forest,0.9950617283950617,0.9981308411214954,0.0030691127264337315,"{'model__n_estimators': 75, 'model__min_samples_leaf': 1, 'model__max_features': 'sqrt', 'model__max_depth': 6}",No strong warning from train-CV gap
+SVM,0.9949367088607595,1.0,0.005063291139240533,"{'model__gamma': 0.1, 'model__C': 1.0}",No strong warning from train-CV gap
+AdaBoost,0.9924675730582904,1.0,0.007532426941709636,"{'model__n_estimators': 50, 'model__learning_rate': 1.0}",No strong warning from train-CV gap
+XGBoost,0.9901234567901234,0.9987577639751553,0.008634307185031886,"{'model__subsample': 0.8, 'model__n_estimators': 75, 'model__min_child_weight': 1, 'model__max_depth': 2, 'model__learning_rate': 0.1, 'model__colsample_bytree': 1.0}",No strong warning from train-CV gap
+LightGBM,0.9874042819190498,1.0,0.012595718080950169,"{'model__num_leaves': 31, 'model__n_estimators': 100, 'model__min_child_samples': 10, 'model__max_depth': 4, 'model__learning_rate': 0.05}",No strong warning from train-CV gap
+Gradient Boosting,0.9826543209876544,0.9956502389659644,0.012995917978310012,"{'model__n_estimators': 75, 'model__min_samples_leaf': 1, 'model__max_depth': 2, 'model__learning_rate': 0.05}",No strong warning from train-CV gap
+KNN,0.9792821879430805,0.9873336591221828,0.00805147117910232,"{'model__weights': 'uniform', 'model__p': 1, 'model__n_neighbors': 3}",No strong warning from train-CV gap
+Decision Tree,0.9752331848590362,0.9974999877928497,0.022266802933813445,"{'model__min_samples_split': 2, 'model__min_samples_leaf': 1, 'model__max_depth': 5}",No strong warning from train-CV gap
